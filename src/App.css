@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  margin-bottom: 7px;
+  padding: 3px;
+}
+
+form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+  text-align: left;
+}
+
+.previous-searches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.search-term-list-item {
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.search-term-list-item button {
+  border: 1px solid #bbb;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+h4,
+h6 {
+  text-align: left;
+  margin-bottom: 0;
+}
+
+h6 {
+  color: #bbb;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+}
